@@ -1,1 +1,1 @@
-# alvr-workshop.github.io
+# mul-workshop.github.io
