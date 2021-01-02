@@ -242,13 +242,33 @@ color: #ECEBEB;
 }
 
 .intro-header {
-	height: 70%; /* Full PAge */
+	height: 100%;
 	padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
 	padding-bottom: 50px;
 	color: #f8f8f8;
-	background: url(../img/intro/intro_acl.jpg) no-repeat center center;
+	background: url(../img/intro/intro_naacl.jpg) no-repeat center center;
 	background-size: cover;
 	text-align: center;
+}
+
+.intro-caption {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	margin: 0 auto;
+	padding: 2px 5px;
+	color: white;
+	font-family: Georgia,Times,serif;
+	font-size: .6875em;
+	background: #000;
+	text-align: right;
+	z-index: 5;
+	opacity: 0.5;
+	border-radius: 4px 0 0 0;
+}
+
+.intro-caption > a {
+	color: white;
 }
 
 .intro-message {
