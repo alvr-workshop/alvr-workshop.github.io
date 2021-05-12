@@ -241,8 +241,7 @@ color: #ECEBEB;
 }
 
 .intro-header {
-	height: 100%;
-	padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+	height: 75%;
 	padding-bottom: 50px;
 	color: #f8f8f8;
 	background: url(../img/intro/intro_naacl.jpg) no-repeat center center;
@@ -1097,9 +1096,7 @@ color: #ECEBEB;
 		h3, .h3 {
 			font-size: 20px;
 		}
-		#gallery1{display:none}
 		
-		.button_down {display:none}
 		
 		
 	}
